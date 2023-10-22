@@ -40,7 +40,7 @@ export default function Races({ name, image }: RaceProps): JSX.Element {
         onMouseLeave={handleMouseLeave}
         onClick={handleClick}>
       </Box>
-      <Dialog open={isExpanded} onClose={() => setIsExpanded(false)} maxWidth="md" fullWidth>
+      <Dialog open={isExpanded} onClose={() => setIsExpanded(false)} maxWidth='md' fullWidth>
         <DetailRaces arthur={image}/>
       </Dialog>
     </Box>
